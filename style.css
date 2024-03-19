@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Marko+One&display=swap');
+a{
+    text-decoration: none;
+}
+header { 
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: black;
+    width: 100%;
+}
+header ul {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    font-size: 34px;
+}
+header ul li {
+    margin: 10px;
+    color: rgb(116, 35, 141);
+}
+img {
+    width: 150px;
+}
+p {
+    font-size: 20px;
+    color: rgb(240, 238, 238);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.contenedor {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    margin: 10px 0 10px 0;
+    background-color: rgb(201, 149, 236)
+}
+.caja {
+    width: 100%;
+    height: 100%;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.caja h1 {
+    font-size: 30px;
+    color: rgb(218, 32, 171);
+}
+.caja h2 {
+    font-size: 30px;
+    color: rgb(218, 32, 171);
+}
+.caja h3 {
+    font-size: 30px;
+    color: rgb(218, 32, 171);
+}
+.caja img {
+   border-radius: 90%;
+}
+.p {
+    font-size: 20px;
+}
+.presentasion {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: black;
+    color: aliceblue;
+}
+.presentasion h1 {
+    font-size: 35px;
+    color: blueviolet;
+}
+.presentasion p {
+    width: 70%;
+    font-size: 20px;
+    padding: 50px;
+    font-family: "Marko One", serif;
+}
+.presentasion img {
+   border-radius: 90%;
+}
+#ayuda {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.testimonio {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: black;
+}
+.testimonio h1 {
+    font-size: 35px;
+    color: blueviolet;
+}
+.direccion {
+    width: 100%;
+    display: flex;
+    flex-direction: initial;
+    justify-content: center;
+    background-color: black;
+}
+.direccion h1 {
+    font-size: 30px;
+    color: blueviolet;
+}
+.direccion p {
+    width: 90%;    
+    font-size: 30px;
+    padding: 90px;
+}
+.pie {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+}
+.pie p {
+    color: rgb(116, 35, 141);
+}

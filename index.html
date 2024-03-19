@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!--vinculación de mi style.css-->
+    <link rel="stylesheet" href="style.css">
+        <!--bootstrap 5-->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+        <!--main-->
+        <script defer src="./main.js"></script>
+        <!--nombre de mi pagina-->
+    <title>Psicologa Sandra San</title>
+</head>
+<body>
+                          <!--B contenedor-->
+                       <div class="container-fluid">
+ <!--encabezado-->
+   <header>
+     <!--logo-->
+       <div>
+             <img src="./Imagenes/logo morado.png" alt="logo sin fondo">
+        </div>
+     <!--menu de navegación-->
+       <nav>
+        <ul>         
+            <a href="https://es.wikipedia.org/wiki/Psicolog%C3%ADa"><li>HOME</li></a>
+            <a href="https://psicologiaymente.com/psicologia"><li>NOSOTROS</li></a>
+            <a href="#ayuda"><li>AYUDA</li></a>
+            <a href="https://www.udemy.com/topic/psychology-fundamentals/?sort=price-low-to-high&persist_locale&locale=es_ES&utm_source=adwords&utm_medium=udemyads&utm_campaign=DSA-WebIndex_la.ES_cc.MX&utm_content=deal4584&utm_term=_._ag_124787779331_._ad_504973666492_._kw__._de_c_._dm__._pl__._ti_dsa-46635476817_._li_9047086_._pd__._&matchtype=&gad_source=1&gclid=Cj0KCQjwncWvBhD_ARIsAEb2HW9nksR6T2Iiv5Xong4YtFdP0cSXNaW3M4sNeKkEZB-4mfoKIX6UJXsaAqQQEALw_wcB"><li>CURSOS</li></a>
+            <a href="https://www.cedulaprofesional.sep.gob.mx/cedula/presidencia/indexAvanzada.action"><li>CONTACTO</li></a>
+        </ul>
+       </nav>  
+   </header>  
+                           </div>
+  <!--presentación-->
+                         <!--boostrap contenedor -->
+                          <div class="container-fluid">
+      <div class="presentasion">
+           <h1>¿Quíen soy?</h1>
+           <p> Hola soy la psicóloga Sandra Sanchez soy tu terapeuta de confianza, te muestro este espacio seguro para ti, aquí hablaremos de la ansiedad, depresión y todo lo relacionado con salud mental.</p>
+           <img src="./Imagenes/yo.jpg" alt="yo">
+                     </div>
+      </div>    
+<!--carrusel-->
+                           <div class="container-fluid"> 
+   <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+     <div class="carousel-inner">
+     <div class="carousel-item active">
+     <img src="./Imagenes/yo.jpeg" class="d-block w-100" alt="..." height="500">
+     </div>
+     <div class="carousel-item">
+     <img src="./Imagenes/frase 4.jpeg" class="d-block w-100" alt="..." height="500">
+     </div>
+     <div class="carousel-item">
+     <img src="./Imagenes/todo cambia.jpeg" class="d-block w-100" alt="..." height="500">
+     </div>
+     </div>
+     <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+     <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+     <span class="visually-hidden">Previous</span>
+     </button>
+     <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+     <span class="carousel-control-next-icon" aria-hidden="true"></span>
+     <span class="visually-hidden">Next</span>
+     </button>
+   </div>
+  
+ <!--imagenes, titulos y parrafos-->
+                     <div class="container-fluid">
+<div class="contenedor"> 
+          <div class="caja">
+  <div>
+            <img src="./Imagenes/ansiedad.jpeg" alt="ansiedad">
+            <h1>La ansiedad</h1>
+            <!--contenido ocultado-->
+             <div id="contenido">
+             <p>La ansiedad es una emoción normal que presentan las mujeres, tambien lo presentan los animales. Los estados de ansiedad varía según su intensidad. Pueden presentarse en cualquier horario. La ansiedad tiene como objetivo principal proteger al organismo, mantener el cuerpo alerta y preparar para la acción.</p>   
+             </div>
+             <button onclick='mostrar_ocultar("contenido")'> Mostrar </button>
+
+          </div> 
+  </div>
+          <div class="caja">
+  <div>
+            <img src="./Imagenes/trastorno de ansiedad.jpeg" alt="trastonor de ansiedad">
+            <h2>Trastono de ansiedad generalizada</h2>
+            <!--contenico oculto-->
+            <div id="contenido2">
+            <p>El trastorno de ansiedad generalizada se caracteriza por una ansiedad y preocupación excesivas acerca de varias actividades y eventos que están presentes durante más días de la semana que los que no los presente a través de ≥ 6 meses. La causa es desconocida, aunque habitualmente coexiste en personas con abuso de alcohol, depresión mayor o trastorno de pánico (crisis de angustia). El diagnóstico se basa en los criterios clínicos. El tratamiento incluye intervenciones conductuales, psicoterapia, farmacoterapia o una combinación de ellas.</p>   
+            </div>
+            <button onclick='mostrar_ocultar("contenido2")'> Mostrar </button>
+          </div>    
+  </div>
+          <div class="caja"> 
+  <div>
+            <img src="./Imagenes/ansiedad perro.jpeg" alt="animales">
+            <h3>¿Ansiedad en animales?</h3>
+            <!--contenido oculto-->
+            <div id="contenido3">
+            <p>El trastorno de ansiedad en animales se define como el conjunto de respuestas comportamentales y autonómicas, producidas por la anticipación de situaciones potencialmente peligrosas del medio interno o externo, con pérdida de la capacidad de adaptación.</p>  
+            </div>
+            <button onclick='mostrar_ocultar("contenido3")'> Mostrar </button>
+          </div>
+  </div>
+</div>  
+                            </div>
+ <!--video de testimonio-->
+                          <!-- b contenedor-->
+                           <div class="container-fluid">
+ <div class="testimonio">
+   <div>
+           <h1>Testimonio de una persona que tiene ansiedad</h1>
+           <iframe width="560" height="315" src="https://www.youtube.com/embed/LGeLHqDOCUs?si=4hTe9I4ZY1epMGhB&amp;start=18" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+   </div>               
+ </div>
+                           </div>
+ <!--mapa-->
+                          <!-- b contenedor-->
+                           <div class="container-fluid"> 
+ <div class= "direccion">
+            <div id="ayuda">
+   <div>
+           <h1>Centro de ayuda</h1>  
+           <p>Necesitas ayuda psicológica puedes venir a esta dirección o hablar al telefono 5586014577</p>  
+           <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3764.7803291327486!2d-99.19131672532866!3d19.335336243780993!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85ce01ec8563f263%3A0xda9a57f1af5ce6e3!2sFacultad%20de%20Psicolog%C3%ADa%20UNAM!5e0!3m2!1ses-419!2smx!4v1710398738701!5m2!1ses-419!2smx" width="560" height="315" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe> 
+           
+    </div>
+            </div>
+ </div> 
+                            </div>
+ <!--pie de pagina--> 
+                           <!-- b contendedor-->
+                           <div class="container-fluid">
+ <div class="pie">   
+   <footer>
+           <p>Conocé nuestro aviso de privacidad 2024.</p>
+   </footer>
+  </div>
+                            </div>
+
+
+ <!--javascript--> 
+ <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</body>
+</html>
